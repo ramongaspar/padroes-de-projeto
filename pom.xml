@@ -54,6 +54,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+
+
 
 		<dependency>
 			<groupId>org.springdoc</groupId>
@@ -61,7 +64,15 @@
 			<version>2.2.0</version>
 		</dependency>
 		
+			
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+	
 	</dependencies>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

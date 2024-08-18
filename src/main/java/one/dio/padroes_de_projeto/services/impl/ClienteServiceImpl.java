@@ -2,15 +2,14 @@ package one.dio.padroes_de_projeto.services.impl;
 
 import java.util.Optional;
 
-import javax.xml.stream.events.EndElement;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import one.dio.padroes_de_projeto.model.Cliente;
-import one.dio.padroes_de_projeto.model.Endereco;
-import one.dio.padroes_de_projeto.repository.ClienteRepository;
-import one.dio.padroes_de_projeto.repository.EnderecoRepository;
+import one.dio.padroes_de_projeto.domain.model.Cliente;
+import one.dio.padroes_de_projeto.domain.model.Endereco;
+import one.dio.padroes_de_projeto.domain.repository.ClienteRepository;
+import one.dio.padroes_de_projeto.domain.repository.EnderecoRepository;
 import one.dio.padroes_de_projeto.services.ClienteService;
 import one.dio.padroes_de_projeto.services.ViaCepService;
 

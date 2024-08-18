@@ -1,6 +1,6 @@
 package one.dio.padroes_de_projeto.services;
 
-import one.dio.padroes_de_projeto.model.Cliente;
+import one.dio.padroes_de_projeto.domain.model.Cliente;
 
 
 public interface ClienteService {

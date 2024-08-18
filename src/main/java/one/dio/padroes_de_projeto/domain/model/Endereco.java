@@ -1,9 +1,9 @@
-package one.dio.padroes_de_projeto.model;
+package one.dio.padroes_de_projeto.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
-@Entity
+@Entity(name = "tb_endereco")
 public class Endereco {
     @Id
     private String cep;

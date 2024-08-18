@@ -1,8 +1,9 @@
-package one.dio.padroes_de_projeto.repository;
+package one.dio.padroes_de_projeto.domain.repository;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-import one.dio.padroes_de_projeto.model.Endereco;
+
+import one.dio.padroes_de_projeto.domain.model.Endereco;
 
 @Repository
 public interface EnderecoRepository extends CrudRepository<Endereco,String>{

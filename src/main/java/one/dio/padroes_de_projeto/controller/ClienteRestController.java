@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import one.dio.padroes_de_projeto.model.Cliente;
+import one.dio.padroes_de_projeto.domain.model.Cliente;
 import one.dio.padroes_de_projeto.services.ClienteService;
 
 import org.springframework.web.bind.annotation.DeleteMapping;

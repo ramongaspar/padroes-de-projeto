@@ -1,4 +1,4 @@
-package one.dio.padroes_de_projeto.model;
+package one.dio.padroes_de_projeto.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -6,7 +6,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToOne;
 
-@Entity
+@Entity(name = "tb_cliente")
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
